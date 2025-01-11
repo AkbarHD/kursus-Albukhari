@@ -44,6 +44,9 @@
     color: #8b00ff;
 }
 
+.hero-section h2 {
+    line-height: 1.5;
+}
 
 .hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/hero.jpg');
@@ -52,15 +55,33 @@
     background-repeat: no-repeat;
 }
 
+.hero-section h2.h4 {
+    font-size: 1.2rem;
+    /* Sedikit lebih kecil */
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.hero-section .typing-container h2 {
+    font-size: 2.2rem;
+    /* Sesuaikan ukuran font heading utama */
+    line-height: 1.3;
+}
+
+/* Sesuaikan padding section */
+.hero-section .col-lg-7 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
 .typing-container {
-    min-height: 120px;
-    /* Sesuaikan dengan tinggi teks */
+    min-height: 90px;
+    /* dari 120px */
 }
 
 .typing-text {
     display: inline-block;
     min-width: 200px;
-    /* Sesuaikan dengan panjang teks terpanjang */
 }
 
 .stats-container {
@@ -72,7 +93,6 @@
 
 .stats-icon {
     width: 50px;
-    /* Ukuran icon dikecilkan sedikit */
     height: 50px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
@@ -1197,5 +1217,101 @@
     .register-btn {
         padding: 1rem 2.5rem;
         font-size: 1.2rem;
+    }
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 100px;
+}
+
+.footer-content {
+    background: linear-gradient(135deg, #8c43ff 0%, #b06ab3 100%);
+    padding: 80px 0 0;
+    position: relative;
+}
+
+/* Links Styling */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    padding-left: 5px;
+}
+
+/* Contact Info */
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info li i {
+    margin-right: 10px;
+    color: #fff;
+    width: 20px;
+}
+
+/* Social Links */
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    color: #fff;
+}
+
+/* Copyright Section */
+.copyright {
+    padding: 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-wave {
+        top: -50px;
+    }
+
+    .footer-content {
+        padding-top: 50px;
     }
 }

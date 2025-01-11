@@ -108,13 +108,13 @@
                         <span class="badge custom-gradient text-white px-3 py-2 mb-3">Kursus Bahasa Arab #1</span>
                     </div>
                     <div class="typing-container">
-                        <h2 class="fw-bold ">
+                        <h2 class="fw-bold">
                             Belajar Bahasa Arab dengan<br>
                             Mudah dan Menyenangkan di
-                            <span class="typing-text gradient-text fw-bold"></span>
+                            <span class="typing-text gradient-text fw-bold auto-input"></span>
                         </h2>
                     </div>
-                    <h2 class="h4 mb-4">Khusus untuk Akhawat, Tanpa Ikhtilat, dan Biaya Terjangkau!</h2>
+                    <h2 class="h4 mb-4">Khusus Akhawat | Tanpa Ikhtilat | Biaya Terjangkau!</h2>
 
                     <!-- CTA Button -->
                     <div class="mt-4">
@@ -128,7 +128,7 @@
                 </div>
 
                 <!-- Stats - Kanan -->
-                <div class="col-lg-5 px-lg-5 ">
+                <div class="col-lg-5 px-lg-4 ">
                     <div class="stats-container bg-white bg-opacity-10 p-4 rounded-4">
                         <div class="row g-4"> <!-- Tambahkan row dan g-4 untuk gap -->
                             <div class="col-6"> <!-- Gunakan col-6 untuk 2 item per baris -->
@@ -138,7 +138,7 @@
                                             <i class="fas fa-users fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class="h2 fw-bold gradient-text mb-0">6,200+</h3>
+                                            <h3 class=" fw-bold gradient-text mb-0">6,200+</h3>
                                             <p class="mb-0">Siswa Aktif</p>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                                             <i class="fas fa-book-open fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class="h2 fw-bold gradient-text mb-0">100+</h3>
+                                            <h3 class=" fw-bold gradient-text mb-0">100+</h3>
                                             <p class="mb-0">Kelas </p>
                                         </div>
                                     </div>
@@ -166,7 +166,7 @@
                                             <i class="fa-solid fa-chalkboard-user fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class="h2 fw-bold gradient-text mb-0">50+</h3>
+                                            <h3 class=" fw-bold gradient-text mb-0">50+</h3>
                                             <p class="mb-0">Pengajar</p>
                                         </div>
                                     </div>
@@ -180,7 +180,7 @@
                                             <i class="fas fa-certificate fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class="h2 fw-bold gradient-text mb-0">300+</h3>
+                                            <h3 class=" fw-bold gradient-text mb-0">300+</h3>
                                             <p class="mb-0">Lulusan</p>
                                         </div>
                                     </div>
@@ -917,15 +917,83 @@
         </div>
     </section>
 
+    <!-- Footer with Wave -->
+    <footer class="footer position-relative poppins">
+        <!-- Wave SVG -->
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Brand Column -->
+                    <div class="col-lg-4 mb-4">
+                        <h4 class="text-white mb-4">Albukhari Arabic Course</h4>
+                        <p class="text-white-50 mb-4">Pembelajaran bahasa Arab modern dengan metode yang mudah dipahami
+                            dan menyenangkan untuk semua kalangan.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-4 mb-4">
+                        <h5 class="text-white mb-4">Menu</h5>
+                        <ul class="footer-links">
+                            <li><a href="#home">Beranda</a></li>
+                            <li><a href="#about">Tentang</a></li>
+                            <li><a href="#program">Program</a></li>
+                            <li><a href="#pricing">Biaya</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Programs -->
+                    <div class="col-lg-3 col-md-4 mb-4">
+                        <h5 class="text-white mb-4">Program Kami</h5>
+                        <ul class="footer-links">
+                            <li><a href="#basic">Kelas Dasar</a></li>
+                            <li><a href="#intermediate">Kelas Menengah</a></li>
+                            <li><a href="#advanced">Kelas Mahir</a></li>
+                            <li><a href="#private">Kelas Privat</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="col-lg-3 col-md-4 mb-4">
+                        <h5 class="text-white mb-4">Kontak Kami</h5>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Jl. Ahmad Yani No.123, Surabaya</li>
+                            <li><i class="fas fa-phone"></i> +62 812-3456-7890</li>
+                            <li><i class="fas fa-envelope"></i> info@albukhari.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <div class="container">
+                    <p class="text-center text-white mb-0">&copy; 2024 Albukhari Arabic Course. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    {{-- countup --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>
     {{-- aos --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     {{-- sweetalert --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.js"></script>
+    {{-- typed --}}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         $(document).ready(function() {
             $('.testimonial-carousel').owlCarousel({
@@ -938,8 +1006,8 @@
                 autoplayHoverPause: true,
                 items: 1, // Menampilkan hanya 1 item
                 navText: [
-                    '<span>&#x2190;</span>', // Tanda panah kiri
-                    '<span>&#x2192;</span>' // Tanda panah kanan
+                    '<i class="fas fa-chevron-left"></i>',
+                    '<i class="fas fa-chevron-right"></i>'
                 ],
                 responsive: {
                     0: {
@@ -956,6 +1024,32 @@
                     }
                 }
             });
+        });
+
+        var typed = new Typed(".auto-input", {
+            strings: ["Albukhari Arabic Course!"],
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop: true
+        })
+
+        const menuIcon = document.getElementById('menuIcon');
+        const navMobile = document.getElementById('navMobile');
+
+        menuIcon.addEventListener('click', () => {
+            const isMenuOpen = navMobile.classList.contains('show');
+
+            if (isMenuOpen) {
+                // Close Menu
+                navMobile.classList.remove('show');
+                menuIcon.classList.remove('fa-xmark');
+                menuIcon.classList.add('fa-bars');
+            } else {
+                // Open Menu
+                navMobile.classList.add('show');
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-xmark');
+            }
         });
     </script>
 </body>
