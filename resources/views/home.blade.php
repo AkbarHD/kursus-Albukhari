@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{-- aos --}}
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 </head>
@@ -99,89 +101,90 @@
         </nav>
     </header>
 
-    <section class="hero-section position-relative overflow-hidden poppins">
+    <section class="hero-section position-relative overflow-hidden poppins" data-aos="fade-in">
         <div class="container min-vh-100 d-flex align-items-center px-0">
             <div class="row w-100 align-items-center justify-content-between">
                 <!-- Text Content - Kiri -->
-                <div class="col-lg-7 text-white py-5 px-lg-5">
+                <div class="col-lg-7 text-white py-5 px-lg-5" data-aos="fade-right" data-aos-delay="200">
                     <div class="mb-2">
-                        <span class="badge custom-gradient text-white px-3 py-2 mb-3">Kursus Bahasa Arab #1</span>
+                        <span class="badge custom-gradient text-white px-3 py-2 mb-3" data-aos="fade-down">
+                            Kursus Bahasa Arab #1
+                        </span>
                     </div>
-                    <div class="typing-container">
+                    <div class="typing-container" data-aos="zoom-in" data-aos-delay="300">
                         <h2 class="fw-bold">
                             Belajar Bahasa Arab dengan<br>
                             Mudah dan Menyenangkan di
                             <span class="typing-text gradient-text fw-bold auto-input"></span>
                         </h2>
                     </div>
-                    <h2 class="h4 mb-4">Khusus Akhawat | Tanpa Ikhtilat | Biaya Terjangkau!</h2>
+                    <h2 class="h4" data-aos="fade-up" data-aos-delay="400">
+                        Khusus Akhwat | Tanpa Ikhtilat | Biaya Terjangkau!
+                    </h2>
 
                     <!-- CTA Button -->
-                    <div class="mt-4">
+                    <div class="mt-4" data-aos="zoom-in" data-aos-delay="500">
                         <a href="#daftar"
-                            class="btn custom-gradient text-white btn-lg px-4 py-2 rounded-pill poppins fw-bold gap-2">
-                            <i class="fa-brands fa-whatsapp me-2" style="font-size: 20px"></i>
+                            class="btn custom-gradient text-white btn-lg align-items-center px-4 py-2 rounded-pill poppins fw-bold gap-1">
+                            <i class="fa-brands fa-whatsapp me-2" style="font-size:25px;"></i>
                             <span>Free Konsultasi</span>
-
                         </a>
                     </div>
                 </div>
 
                 <!-- Stats - Kanan -->
-                <div class="col-lg-5 px-lg-4 ">
-                    <div class="stats-container bg-white bg-opacity-10 p-4 rounded-4">
-                        <div class="row g-4"> <!-- Tambahkan row dan g-4 untuk gap -->
-                            <div class="col-6"> <!-- Gunakan col-6 untuk 2 item per baris -->
-                                <div class=" text-white">
+                <div class="col-lg-5 px-lg-4" data-aos="fade-left" data-aos-delay="600">
+                    <div class="stats-container bg-white bg-opacity-10 p-4 rounded-4" data-aos="zoom-in"
+                        data-aos-delay="700">
+                        <div class="row g-4 py-md-3">
+                            <div class="col-6">
+                                <div class="text-white" data-aos="fade-up" data-aos-delay="800">
                                     <div class="d-flex align-items-center">
                                         <div class="stats-icon me-3">
                                             <i class="fas fa-users fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class=" fw-bold gradient-text mb-0">6,200+</h3>
-                                            <p class="mb-0">Siswa Aktif</p>
+                                            <h3 class="fw-bold gradient-text mb-0">6,200+</h3>
+                                            <p class="mb-0 tag-line text-nowrap">Siswa Aktif</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-6">
-                                <div class=" text-white">
+                                <div class="text-white" data-aos="fade-up" data-aos-delay="900">
                                     <div class="d-flex align-items-center">
                                         <div class="stats-icon me-3">
                                             <i class="fas fa-book-open fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class=" fw-bold gradient-text mb-0">100+</h3>
-                                            <p class="mb-0">Kelas </p>
+                                            <h3 class="fw-bold gradient-text mb-0">100+</h3>
+                                            <p class="mb-0 tag-line">Kelas</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-6">
-                                <div class=" text-white">
+                                <div class="text-white" data-aos="fade-up" data-aos-delay="1000">
                                     <div class="d-flex align-items-center">
                                         <div class="stats-icon me-3">
                                             <i class="fa-solid fa-chalkboard-user fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class=" fw-bold gradient-text mb-0">50+</h3>
-                                            <p class="mb-0">Pengajar</p>
+                                            <h3 class="fw-bold gradient-text mb-0">50+</h3>
+                                            <p class="mb-0 tag-line">Pengajar</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-6">
-                                <div class=" text-white">
+                                <div class="text-white" data-aos="fade-up" data-aos-delay="1100">
                                     <div class="d-flex align-items-center">
                                         <div class="stats-icon me-3">
                                             <i class="fas fa-certificate fs-1 gradient-text"></i>
                                         </div>
                                         <div>
-                                            <h3 class=" fw-bold gradient-text mb-0">300+</h3>
-                                            <p class="mb-0">Lulusan</p>
+                                            <h3 class="fw-bold gradient-text mb-0">300+</h3>
+                                            <p class="mb-0 tag-line">Lulusan</p>
                                         </div>
                                     </div>
                                 </div>
@@ -193,28 +196,32 @@
         </div>
     </section>
 
-    {{-- mengapa --}}
     <section class="pain-points-section py-5 position-relative overflow-hidden poppins">
-        <!-- Background decoration -->
-        <div class="decoration-circle circle-1"></div>
-        <div class="decoration-circle circle-2"></div>
+        <!-- Background Decoration -->
+        <div class="decoration-circle circle-1" data-aos="fade-in" data-aos-duration="1200"></div>
+        <div class="decoration-circle circle-2" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="300">
+        </div>
 
+        <!-- Container -->
         <div class="container">
-            <div class="text-center mb-5">
+            <!-- Section Heading -->
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <span class="badge custom-gradient text-white px-3 py-2 mb-3">Permasalahan Umum</span>
                 <h2 class="fw-bold mb-4">Apakah Anda Mengalami Hal-hal Berikut Ini?</h2>
                 <p class="text-muted">Mari identifikasi kendala Anda dalam belajar bahasa Arab</p>
             </div>
 
+            <!-- Cards Row -->
             <div class="row g-4 justify-content-center">
-                <!-- Pain Point Cards with equal heights -->
+                <!-- Card 1 -->
                 <div class="col-lg-6">
-                    <div class="pain-point-card d-flex flex-column h-100">
+                    <div class="pain-point-card d-flex flex-column h-100" data-aos="fade-right"
+                        data-aos-duration="1000">
                         <div class="card-content flex-grow-1">
                             <div class="d-flex gap-4">
                                 <div class="icon-wrapper">
                                     <div class="icon-inner">
-                                        <i class="fas fa-road-barrier "></i>
+                                        <i class="fas fa-road-barrier"></i>
                                     </div>
                                     <div class="icon-border"></div>
                                 </div>
@@ -228,8 +235,10 @@
                     </div>
                 </div>
 
+                <!-- Card 2 -->
                 <div class="col-lg-6">
-                    <div class="pain-point-card d-flex flex-column h-100">
+                    <div class="pain-point-card d-flex flex-column h-100" data-aos="fade-left"
+                        data-aos-duration="1000">
                         <div class="card-content flex-grow-1">
                             <div class="d-flex gap-4">
                                 <div class="icon-wrapper">
@@ -240,8 +249,8 @@
                                 </div>
                                 <div>
                                     <p class="mb-0">Sudah di level menengah dan membutuhkan kelas yang menggunakan
-                                        bahasa pengantar bahasa Arab tanpa terjemahan agar Cepat lancar berbicara bahasa
-                                        Arab tapi biasanya kelas seperti itu biayanya cukup mahal.</p>
+                                        bahasa pengantar bahasa Arab tanpa terjemahan agar cepat lancar berbicara bahasa
+                                        Arab, tapi biasanya kelas seperti itu biayanya cukup mahal.</p>
                                 </div>
                             </div>
                         </div>
@@ -249,8 +258,10 @@
                     </div>
                 </div>
 
+                <!-- Card 3 -->
                 <div class="col-lg-6">
-                    <div class="pain-point-card d-flex flex-column h-100">
+                    <div class="pain-point-card d-flex flex-column h-100" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-delay="200">
                         <div class="card-content flex-grow-1">
                             <div class="d-flex gap-4">
                                 <div class="icon-wrapper">
@@ -261,7 +272,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-0">Pernah ikut kursus bahasa Arab tapi terlalu fokus pada teori
-                                        tidak ada praktek.</p>
+                                        tanpa ada praktek.</p>
                                 </div>
                             </div>
                         </div>
@@ -269,8 +280,10 @@
                     </div>
                 </div>
 
+                <!-- Card 4 -->
                 <div class="col-lg-6">
-                    <div class="pain-point-card d-flex flex-column h-100">
+                    <div class="pain-point-card d-flex flex-column h-100" data-aos="fade-left"
+                        data-aos-duration="1000" data-aos-delay="200">
                         <div class="card-content flex-grow-1">
                             <div class="d-flex gap-4">
                                 <div class="icon-wrapper">
@@ -281,7 +294,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-0">Ingin ikut kelas bahasa Arab khawatir kelasnya dicampur dengan
-                                        ikhwan/laki laki.</p>
+                                        ikhwan/laki-laki.</p>
                                 </div>
                             </div>
                         </div>
@@ -289,28 +302,28 @@
                     </div>
                 </div>
 
+                <!-- Card 5 -->
                 <div class="col-lg-6">
-                    <div class="pain-point-card d-flex flex-column h-100">
+                    <div class="pain-point-card d-flex flex-column h-100" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="400">
                         <div class="card-content flex-grow-1">
                             <div class="d-flex gap-4">
                                 <div class="icon-wrapper">
                                     <div class="icon-inner">
-                                        <i class="fas fa-hand-holding-dollar "></i>
+                                        <i class="fas fa-hand-holding-dollar"></i>
                                     </div>
                                     <div class="icon-border"></div>
                                 </div>
                                 <div>
-                                    <p class="mb-0 ">Ingin ikutan kelas bahasa Arab yang interaktif, berfokus
-                                        pada
-                                        praktek dan pesertanya sedikit tapi biayanya mahal 200 - 500 ribu perbulan.</p>
+                                    <p class="mb-0">Ingin ikutan kelas bahasa Arab yang interaktif, berfokus pada
+                                        praktek, dan pesertanya sedikit tapi biayanya mahal 200 - 500 ribu per bulan.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="card-decoration"></div>
                     </div>
                 </div>
-
-                <!-- Repeat the same structure for other cards... -->
             </div>
         </div>
     </section>
@@ -318,14 +331,14 @@
     {{-- usp --}}
     <section class="usp-section py-80">
         <div class="container poppins">
-            <div class="text-center mb-5">
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="800">
                 <span class="badge custom-gradient text-white px-3 py-2 mb-3">Kenapa Memilih Kami?</span>
                 <h2 class="fw-bold">Keunggulan Belajar di <span class="gradient-text">Albukhari Arabic</span></h2>
             </div>
 
-            <div class="row g-4 mb-3">
+            <div class="row g-4 mb-3 justify-content-center">
                 <!-- Kelas Semi Private -->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="800">
                     <div class="usp-card h-100">
                         <div class="card-icon">
                             <i class="fas fa-users gradient-text"></i>
@@ -337,7 +350,7 @@
                 </div>
 
                 <!-- Pembimbing Berpengalaman -->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">
                     <div class="usp-card h-100">
                         <div class="card-icon">
                             <i class="fas fa-chalkboard-teacher gradient-text"></i>
@@ -349,7 +362,7 @@
                 </div>
 
                 <!-- Fokus pada Praktek -->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="800">
                     <div class="usp-card h-100">
                         <div class="card-icon">
                             <i class="fas fa-comments gradient-text"></i>
@@ -359,12 +372,11 @@
                         <div class="card-hover-effect"></div>
                     </div>
                 </div>
-
-
             </div>
 
-            <div class="row  justify-content-center">
-                <div class="col-md-6 col-lg-4">
+            <div class="row g-4 mb-3 justify-content-center">
+                <!-- Biaya Terjangkau -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                     <div class="usp-card h-100">
                         <div class="card-icon">
                             <i class="fas fa-tags gradient-text"></i>
@@ -375,7 +387,8 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <!-- E-Sertifikat -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                     <div class="usp-card h-100">
                         <div class="card-icon">
                             <i class="fas fa-certificate gradient-text"></i>
@@ -393,7 +406,7 @@
     {{-- pilihan kelas --}}
     <section class="class-selection-section py-5 position-relative overflow-hidden poppins">
         <div class="container">
-            <div class="text-center mb-5">
+            <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="800">
                 <span class="badge custom-gradient text-white px-3 py-2 mb-3">Program Kelas</span>
                 <h2 class="fw-bold mb-4">Pilihan Level Kelas</h2>
                 <p class="text-muted">Pilih kelas sesuai dengan kemampuan Anda</p>
@@ -401,8 +414,8 @@
 
             <div class="row g-4 justify-content-center">
                 <!-- Kelas Pemula Card -->
-                <div class="col-lg-6">
-                    <div class="class-card h-100">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
+                    <div class="class-card shadow-lg">
                         <div class="card-inner">
                             <!-- Card Header -->
                             <div class="card-header gradient-purple p-4 text-white">
@@ -432,7 +445,6 @@
                                 </div>
 
                                 <h4 class="h5 mb-3">Kelas Pemula</h4>
-
                                 <p class="text-muted mb-4">Untuk Akhawat yang baru memulai belajar bahasa Arab. Kelas
                                     ini akan memperkenalkan dasar-dasar percakapan bahasa Arab dengan metode yang mudah
                                     dipahami.</p>
@@ -482,8 +494,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="class-card h-100">
+
+                <!-- Kelas Menengah Card -->
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+                    <div class="class-card shadow-lg">
                         <div class="card-inner">
                             <!-- Card Header -->
                             <div class="card-header gradient-purple p-4 text-white">
@@ -513,7 +527,6 @@
                                 </div>
 
                                 <h4 class="h5 mb-3">Kelas Menengah</h4>
-
                                 <p class="text-muted mb-4">Untuk Akhawat yang sudah memiliki pengetahuan dasar dan
                                     ingin memperlancar Bahasa Arab. Kelas ini fokus pada peningkatan keterampilan
                                     berbicara. Kelas menggunakan bahasa arab tanpa terjemahan</p>
@@ -563,12 +576,10 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Kelas Menengah Card - Similar structure with different content -->
-                <!-- ... -->
             </div>
         </div>
     </section>
+
 
     <!-- Testimonial Section -->
     <section class="testimonial-section py-5 position-relative overflow-hidden poppins">
@@ -678,19 +689,21 @@
         </div>
     </section>
 
-    {{-- why learan arab --}}
+    {{-- Why Learn Arabic --}}
     <section class="why-learn-section py-5 position-relative overflow-hidden poppins">
         <div class="container">
-            <div class="text-center mb-5">
+            <!-- Section Heading -->
+            <div class="text-center mb-5" data-aos="fade-down">
                 <span class="badge custom-gradient text-white px-3 py-2 mb-3">Keunggulan</span>
                 <h2 class="fw-bold mb-4">Mengapa Harus Belajar Bahasa Arab?</h2>
-                <p class="text-muted">Belajar bahasa Arab memiliki berbagai manfaat penting dalam memahami agama Islam
+                <p class="text-muted">Belajar bahasa Arab memiliki berbagai manfaat penting dalam memahami agama Islam.
                 </p>
             </div>
 
+            <!-- Benefits Container -->
             <div class="benefits-container">
                 <!-- Benefit Item 1 -->
-                <div class="benefit-item-two">
+                <div class="benefit-item-two" data-aos="fade-up" data-aos-delay="100">
                     <div class="benefit-icon">
                         <i class="fas fa-book-quran"></i>
                     </div>
@@ -701,7 +714,8 @@
                     </div>
                 </div>
 
-                <div class="benefit-item-two">
+                <!-- Benefit Item 2 -->
+                <div class="benefit-item-two" data-aos="fade-up" data-aos-delay="200">
                     <div class="benefit-icon">
                         <i class="fas fa-scroll"></i>
                     </div>
@@ -712,7 +726,8 @@
                     </div>
                 </div>
 
-                <div class="benefit-item-two">
+                <!-- Benefit Item 3 -->
+                <div class="benefit-item-two" data-aos="fade-up" data-aos-delay="300">
                     <div class="benefit-icon">
                         <i class="fas fa-praying-hands"></i>
                     </div>
@@ -723,7 +738,8 @@
                     </div>
                 </div>
 
-                <div class="benefit-item-two">
+                <!-- Benefit Item 4 -->
+                <div class="benefit-item-two" data-aos="fade-up" data-aos-delay="400">
                     <div class="benefit-icon">
                         <i class="fas fa-users"></i>
                     </div>
@@ -734,7 +750,8 @@
                     </div>
                 </div>
 
-                <div class="benefit-item-two">
+                <!-- Benefit Item 5 -->
+                <div class="benefit-item-two" data-aos="fade-up" data-aos-delay="500">
                     <div class="benefit-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
@@ -753,19 +770,24 @@
     </section>
 
 
-    {{-- target audience --}}
+
+    {{-- Target Audience --}}
     <section class="audience-galaxy py-5 position-relative overflow-hidden poppins">
         <div class="container">
-            <div class="text-center ">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
                 <span class="badge custom-gradient text-white px-3 py-2 mb-3">Target Peserta</span>
                 <h2 class="fw-bold mb-4">Cocok Untuk Siapa Kelas Ini?</h2>
-                <p class="text-muted mb-5">Kelas ini cocok untuk siapapun yang ingin belajar dan memperdalam bahasa
-                    Arab dari nol ataupun dari level menengah</p>
+                <p class="text-muted mb-5">
+                    Kelas ini cocok untuk siapapun yang ingin belajar dan memperdalam bahasa Arab dari nol ataupun dari
+                    level menengah
+                </p>
             </div>
 
-            <div class="hex-container">
+            <!-- Hexagonal Grid -->
+            <div class="hex-container d-flex flex-wrap justify-content-center">
                 <!-- Hexagon 1 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="100">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-user-graduate hex-icon"></i>
@@ -775,7 +797,7 @@
                 </div>
 
                 <!-- Hexagon 2 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="200">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-university hex-icon"></i>
@@ -785,7 +807,7 @@
                 </div>
 
                 <!-- Hexagon 3 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="300">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-microphone hex-icon"></i>
@@ -795,7 +817,7 @@
                 </div>
 
                 <!-- Hexagon 4 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="400">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-book-reader hex-icon"></i>
@@ -805,7 +827,7 @@
                 </div>
 
                 <!-- Hexagon 5 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="500">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-kaaba hex-icon"></i>
@@ -815,7 +837,7 @@
                 </div>
 
                 <!-- Hexagon 6 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="600">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-plane-departure hex-icon"></i>
@@ -825,7 +847,7 @@
                 </div>
 
                 <!-- Hexagon 7 -->
-                <div class="hex-wrapper">
+                <div class="hex-wrapper" data-aos="fade-up" data-aos-delay="700">
                     <div class="hex-item">
                         <div class="hex-content">
                             <i class="fas fa-book-open hex-icon"></i>
@@ -836,14 +858,15 @@
             </div>
         </div>
 
-        <!-- Floating Elements -->
-        <div class="floating-element fe-1">ع</div>
-        <div class="floating-element fe-2">ب</div>
-        <div class="floating-element fe-3">ر</div>
+        <!-- Floating Decorative Elements -->
+        <div class="floating-element fe-1" data-aos="fade-right" data-aos-delay="100">ع</div>
+        <div class="floating-element fe-2" data-aos="fade-up" data-aos-delay="300">ب</div>
+        <div class="floating-element fe-3" data-aos="fade-left" data-aos-delay="500">ر</div>
     </section>
 
 
-    {{-- tunggu apa alagi --}}
+
+    {{-- Tunggu Apa Lagi --}}
     <section class="price-spotlight py-5 position-relative overflow-hidden">
         <div class="container">
             <div class="cta-wrapper">
@@ -853,29 +876,29 @@
                     <div class="deco-lines"></div>
 
                     <!-- Main Content -->
-                    <div class="shine-wrapper mb-4">
-                        <h2 class="mega-title">Tunggu Apalagi?</h2>
+                    <div class="shine-wrapper mb-4" data-aos="zoom-in" data-aos-delay="100">
+                        <h2 class="mega-title">Tunggu Apa Lagi?</h2>
                     </div>
 
-                    <div class="description-box mb-4">
+                    <div class="description-box mb-4" data-aos="fade-up" data-aos-delay="200">
                         <p class="lead mb-3">Rasakan kemudahan belajar percakapan bahasa Arab bersama Albukhari.</p>
                         <div class="special-offer">
                             <div class="offer-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
                             </div>
                             <span class="offer-badge">Spesial!</span>
                             <p class="mb-0">Belajar sekarang, bayar setelah sebulan belajar!</p>
                             <div class="offer-stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
                             </div>
                         </div>
                     </div>
 
-                    <div class="pricing-box">
+                    <div class="pricing-box" data-aos="zoom-in" data-aos-delay="800">
                         <div class="price-container">
                             <div class="old-price">
                                 <span class="price-tag">Rp 250.000</span>
@@ -887,16 +910,11 @@
                             <div class="current-price">
                                 <span class="price-amount">Rp 99.000</span>
                                 <div class="price-glow"></div>
-                                <div class="price-sparkles">
-                                    <i class="fas fa-sparkles spark-1"></i>
-                                    <i class="fas fa-sparkles spark-2"></i>
-                                    <i class="fas fa-sparkles spark-3"></i>
-                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="cta-button">
+                    <div class="cta-button mt-4" data-aos="fade-up" data-aos-delay="400">
                         <a href="#daftar" class="register-btn">
                             <span class="btn-content">Daftar Sekarang</span>
                             <span class="btn-particles"></span>
@@ -916,6 +934,42 @@
             <div class="float-bubble b3"></div>
         </div>
     </section>
+
+    {{-- Call to Action --}}
+    <section class="cta-section py-5 poppins position-relative">
+        <div class="container">
+            <div class="cta-wrapperr position-relative overflow-hidden">
+                <div class="cta-overlay"></div>
+                <div class="cta-content text-center p-5 position-relative">
+                    <span class="badge custom-gradient text-white px-3 py-2 mb-3" data-aos="fade-in">Bergabung
+                        Sekarang</span>
+                    <h2 class="text-white fw-bold mb-4" data-aos="fade-down">
+                        Mulai Perjalanan Anda dalam Memahami Bahasa Al-Qur'an Bersama Para Pengajar Terpercaya
+                    </h2>
+                    <p class="text-white mb-4" data-aos="fade-up">
+                        Investasi terbaik untuk masa depan Anda dalam memahami dan mendalami bahasa Arab
+                    </p>
+                    <div class="cta-buttons d-flex justify-content-center gap-3" data-aos="zoom-in">
+                        <a href="#daftar"
+                            class="btn custom-gradient text-white btn-lg rounded-pill poppins fw-bold cta-btn">
+                            <span class="btn-content">
+                                <i class="fas fa-user-plus me-2"></i>
+                                Daftar Sekarang
+                            </span>
+                        </a>
+                        <a href="#konsultasi"
+                            class="btn btn-outline-light btn-lg rounded-pill poppins cta-btn-outline">
+                            <span class="btn-content">
+                                <i class="fa-brands fa-whatsapp me-2"></i>
+                                Konsultasi Gratis
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer with Wave -->
     <footer class="footer position-relative poppins">
@@ -961,7 +1015,7 @@
 
                     <!-- Contact -->
                     <div class="col-lg-3 col-md-4 mb-4">
-                        <h5 class="text-white mb-4">Kontak Kami</h5>
+                        <h5 class="text-white m  b-4">Kontak Kami</h5>
                         <ul class="contact-info">
                             <li><i class="fas fa-map-marker-alt"></i> Jl. Ahmad Yani No.123, Surabaya</li>
                             <li><i class="fas fa-phone"></i> +62 812-3456-7890</li>
@@ -1024,6 +1078,12 @@
                     }
                 }
             });
+        });
+
+        AOS.init({
+            duration: 1000, // Durasi animasi
+            once: true, // Animasi berjalan sekali
+            offset: 120, // Jarak sebelum elemen terlihat
         });
 
         var typed = new Typed(".auto-input", {
